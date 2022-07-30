@@ -43,11 +43,11 @@ _Open via Bash/GitBash/GitHub;_
 * Download and install instructions for MySQL Workbench can be found here at https://dev.mysql.com/downloads/workbench/8.0.html.
 * A code editor will be needed to edit the _appsettings.json_ file. You can download for free VSCode here https://code.visualstudio.com/Download.
 * The syntax for the _appsettings.json_ file is as follows ... 
-{
-  "ConnectionStrings": {
-      "DefaultConnection": "Server=localhost;Port=3306;database=your_database_name_here;uid=your_user_id_here;pwd=your_password;"
-  }
-} 
+  * {
+      "ConnectionStrings": {
+       "DefaultConnection": "Server=localhost;Port=3306;database=your_database_name_here;uid=your_user_id_here;pwd=your_password;"
+     }
+    } 
 * Once work bench is open, in the _Navigator > Administration_ window, select _Data Import/Restore_.
 * In _Import Options_ select _Import from Self-Contained File_. 
 * Navigate to the Alexander_Kirkpatrick.sql dump file within the top directory of the application.
