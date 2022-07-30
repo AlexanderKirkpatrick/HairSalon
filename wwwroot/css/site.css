@@ -2,6 +2,7 @@
   white-space: normal;
   text-align: center;
   word-break: break-all;
+  color: #6590aa
 }
 
 a {
@@ -30,7 +31,7 @@ html {
 }
 
 .border-top {
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #6590aa;
 }
 .border-bottom {
   border-bottom: 1px solid #e5e5e5;
