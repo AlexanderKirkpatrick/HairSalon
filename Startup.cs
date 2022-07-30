@@ -8,8 +8,8 @@ using HairSalon.Models;
 
 namespace HairSalon
 {
-      public class Startup
-  {
+    public class Startup
+    {
     public Startup(IWebHostEnvironment env)
     {
       var builder = new ConfigurationBuilder()
