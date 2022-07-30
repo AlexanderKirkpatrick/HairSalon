@@ -56,9 +56,9 @@ _Open via Bash/GitBash/GitHub;_
 * Navigate to the tab called _Import Progress_ and click _Start Import_ at the bottom right corner of the window. 
 * Reopen the _Navigator > Schemas_ tab. Right click and select _Refresh All_. The new database will appear.
 * If the build fails to properly restore, Entity Framework commands for the terminal are as follows:
-    dotnet add package Microsoft.EntityFrameworkCore.Proxies -v 5.0.0
-    dotnet add package Microsoft.EntityFrameworkCore -v 5.0.0
-    dotnet add package Pomelo.EntityFrameworkCore.MySql -v 5.0.0-alpha.2
+   * dotnet add package Microsoft.EntityFrameworkCore.Proxies -v 5.0.0
+   * dotnet add package Microsoft.EntityFrameworkCore -v 5.0.0
+   * dotnet add package Pomelo.EntityFrameworkCore.MySql -v 5.0.0-alpha.2
 * Within the top directory, enter the command "dotnet run" in the terminal.  Enter the link http://localhost:5000 in your browser to run the application.
 
 ## Known Bugs
